@@ -1,0 +1,1180 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0034)http://www.gaohuang.net/ -->
+<!DOCTYPE html PUBLIC "" ""><!-- Lab of GaoHuang from THU --><HTML lang="en-us"><HEAD><META 
+content="IE=11.0000" http-equiv="X-UA-Compatible">
+     
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">     
+<TITLE>Gao Huang Homepage</TITLE>     <LINK href="Gao%20Huang%20Homepage_files/bootstrap.min.css" 
+rel="stylesheet">     
+<SCRIPT src="Gao%20Huang%20Homepage_files/jquery-3.1.1.slim.min.js"></SCRIPT>
+     
+<STYLE type="text/css">
+        /* @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic"); */
+
+        body {
+            /* font-family:"Roboto",Helvetica,Arial,sans-serif; */
+            /* font-family: Arial, Helvetica, sans-serif; */
+            /* font-family: "Times New Roman",Georgia,Serif; */
+            font-family: "Helvetica", Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: normal;
+            background-color: #ffffff;
+        }
+
+        .navigation {
+            height: auto;
+            width: 100%;
+            margin-left: 0;
+            background: rgb(112, 24, 112);
+            opacity: 0.8;
+            position: fixed;
+            top: 0;
+        }
+
+        .navigation ul {
+            width: auto;
+            list-style-type: none;
+            white-space: nowrap;
+            margin-left: 22%;
+            padding: 0;
+        }
+
+        .navigation li {
+            float: right;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 2%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #name-nav {
+            float: left;
+            position: relative;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            overflow: hidden;
+            font-size: 120%;
+            text-decoration: none;
+        }
+
+        .navigation li a,
+        .navigation li span {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            overflow: hidden;
+            text-decoration: none;
+        }
+
+        .navigation li a:hover {
+            text-decoration: underline;
+        }
+
+        .navigation li span:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        b {
+            font-weight: 600;
+        }
+
+        .content {
+            width: 100%;
+            padding-top: 4%;
+            /* margin : 0px auto; */
+            background-color: #ffffff;
+        }
+
+        table {
+            padding: 5px;
+        }
+
+        table.pub_table,
+        td.pub_td1,
+        td.pub_td2 {
+            padding: 8px;
+            width: 850px;
+            border-collapse: separate;
+            border-spacing: 15px;
+            margin-top: -5px;
+        }
+
+        td.pub_td1 {
+            width: 50px;
+        }
+
+        td.pub_td1 img {
+            height: 120px;
+            width: 160px;
+        }
+
+        div#container {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 15%;
+            margin-right: 15%;
+            
+            /* width: 860px; */
+            text-align: left;
+            /* position: relative; */
+            background-color: #FFF;
+        }
+
+        div#portrait {
+            /* color: #1367a7;
+        color: rgb(34, 110, 147); */
+            height: 158px;
+        }
+
+        #portrait {
+            /* position: relative; */
+            /*margin-left: 100%;*/
+        }
+
+        h4,
+        h3,
+        h2,
+        h1,
+        .paperlo,
+        .paperhi-only {
+            color: rgb(20, 68, 106);
+        }
+
+        .text_container h2:hover {
+            cursor: pointer;
+        }
+
+        .paperhi-only,
+        .paperlo:hover {
+            cursor: pointer;
+        }
+
+        h2 {
+            font-size: 130%;
+        }
+
+        #paper-show {
+            color: rgb(0, 85, 170);
+            font-size: 80%;
+        }
+
+        #paper-show span:hover {
+            text-decoration: underline;
+        }
+
+        /* p
+	{
+		color: #5B5B5B;
+		margin-bottom: 50px;
+	}
+	p.caption
+	{
+		color: #9B9B9B;
+		text-align: left;
+		width: 600px;
+	}
+	p.caption2
+	{
+		color: #9B9B9B;
+		text-align: left;
+		width: 800px;
+	} */
+
+        #header_img {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+        /* 
+        a:link,
+        a:visited {
+            color: #1367a7;
+            text-decoration: none;
+        } */
+
+        #mit_logo {
+            position: absolute;
+            left: 646px;
+            top: 14px;
+            width: 200px;
+            height: 20px;
+        }
+
+        table.pub_table tr {
+            outline: thin dotted #666666;
+        }
+
+        .paper-title {
+            color: black;
+            text-decoration: none;
+        }
+
+        .papericon {
+            /* border-radius: 8px; */
+            /* -moz-box-shadow: 3px 3px 6px #888;
+            -webkit-box-shadow: 3px 3px 6px #888;
+            box-shadow: 3px 3px 6px #888; */
+            /*height: 120px;*/
+            width: 160px;
+            margin-top: auto;
+            margin-left: 5px;
+            margin-bottom: auto;
+        }
+
+        .media {
+            margin-bottom: 15px;
+            margin-left: 10px;
+        }
+
+        .media-body {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+
+        .publication {
+            margin-bottom: 15px;
+        }
+
+        .papers-selected .publication {
+            display: none;
+        }
+
+        .papers-selected .book-chapters {
+            display: none;
+        }
+
+        .papers-selected #show-selected {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .papers-selected .paperhi {
+            display: flex;
+        }
+
+        .papers-selected .paper-year {
+            display: none;
+        }
+
+        .papers-by-date #show-by-date {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .papers-by-date .paper-selected {
+            display: none;
+        }
+
+        .papers-by-date .book-chapters {
+            display: none;
+        }
+
+        .book-chapters #book-chapters {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .book-chapters .paper-selected,
+        .book-chapters .paper-year,
+        .book-chapters .publication {
+            display: none;
+        }
+
+        .book-chapters .chapter {
+            display: flex;
+        }
+
+        /* .papers-by-date .paperhi {
+            display: none;
+        } */
+
+        .hidden>div {
+            display: none;
+        }
+
+        .visible>div {
+            display: block;
+        }
+    </STYLE>
+     
+<SCRIPT>
+        $(document).ready(function () {
+            $('#show-selected').click(function () {
+                $('.papers-container').removeClass('papers-by-date');
+                $('.papers-container').removeClass('book-chapters');
+                $('.papers-container').addClass('papers-selected');
+            });
+
+            $('#show-by-date').click(function () {
+                $('.papers-container').removeClass('papers-selected');
+                $('.papers-container').removeClass('book-chapters');
+                $('.papers-container').addClass('papers-by-date');
+            });
+
+            $('#book-chapters').click(function () {
+                $('.papers-container').removeClass('papers-selected');
+                $('.papers-container').removeClass('papers-by-date');
+                $('.papers-container').addClass('book-chapters');
+            });
+
+            $('.papers-container').addClass('papers-selected');
+
+
+            $('.text_container').addClass("hidden");
+            $('.text_container').click(function () {
+                var $this = $(this);
+
+                // if ($this.hasClass("hidden")) {
+                //     $(this).removeClass("hidden").addClass("visible");
+
+                // } else {
+                //     $(this).removeClass("visible").addClass("hidden");
+                // }
+            });
+
+            // document.querySelector("#news-nav").onclick = function () {
+            //     document.querySelector("#news").scrollIntoView({
+            //         block: "center",
+            //         behavior: "smooth"
+            //     });
+            // }
+            // publications
+            document.querySelector("#publication-nav").onclick = function () {
+                document.querySelector(".paperlo").scrollIntoView({
+                    block: "center",
+                    behavior: "smooth"
+                });
+            }
+            // awards
+            document.querySelector("#award-nav").onclick = function () {
+                document.querySelector("#award").scrollIntoView({
+                    block: "center",
+                    behavior: "smooth"
+                });
+            }
+            // talks
+            document.querySelector("#talk-nav").onclick = function () {
+                document.querySelector("#talk").scrollIntoView({
+                    block: "center",
+                    behavior: "smooth"
+                });
+            }
+            // students
+            document.querySelector("#student-nav").onclick = function () {
+                document.querySelector("#student").scrollIntoView({
+                    block: "center",
+                    behavior: "smooth"
+                });
+            }
+            // more
+            document.querySelector("#more-nav").onclick = function () {
+                document.querySelector("#more").scrollIntoView({
+                    block: "center",
+                    behavior: "smooth"
+                });
+            }
+
+        });
+    </SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001">
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?85819d0bd906cafe9ed67ce601c2e750";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+        </script>
+        
+
+</HEAD> 
+<BODY id="top">
+
+<DIV class="navigation">
+<UL>
+<!--  <LI id="name-nav"></LI>
+ <LI id="more-nav"><SPAN>More</SPAN></LI>
+  <LI id="talk-nav"><SPAN>Talks</SPAN>
+  <LI>
+  <LI id="award-nav"><SPAN>Awards</SPAN>
+  <LI> -->
+  <li class="nav-item"><a href="#contact">Contact</a></li>
+  <!-- <li class="nav-item"><a href="#talks">Talks</a></li> -->
+  <li class="nav-item"><a href="#students">Students</a></li>
+  <li class="nav-item"><a href="#awards">Awards</a></li>
+  <li class="nav-item"><a href="#publications">Publications</a></li>
+  
+  <li class="nav-item"><a href="#top">Home</a></li>
+  
+  
+  <!-- <li class="nav-item"><a href="http://www.gaohuang.net/#teaching">Teaching</a></li> -->
+                  
+  <!-- <li class="nav-item"><a href="http://www.gaohuang.net/#miscellaneous">Misc</a></li> -->
+  
+  
+ <!-- <LI id="contact-nav"><SPAN>Contact</SPAN>
+  <LI>
+  <LI id="publication-nav"><SPAN>Publications</SPAN></LI>
+  <LI><A href="http://www.gaohuang.net/#top">Home</A></LI> --></UL></DIV>
+<DIV class="content">
+<DIV id="container">
+<TABLE width="100%">
+  <TBODY>
+  <TR>
+    <TD width="60%">
+      <DIV id="info" width="">
+      <H1><BR>Gao Huang</H1><BR>
+      <!-- <P><B>Assistant Professor</B><BR>                                    
+      Department of Automation, Tsinghua University 
+        </P>
+        
+        <h2>Education</h2>
+      <Li>PhD, Tsinghua University</Li><Li>B.E., Beihang University</Li>
+      <br>
+    </DIV></TD>
+    <TD width="40%">
+      <DIV id="photo" style="margin-left: 15%; float: right;"><IMG height="200" 
+      id="portrait" src="Gao%20Huang%20Homepage_files/gao.jpg">                      
+             </DIV></TD></TR></TBODY></TABLE>
+
+<h2>Research Experience</h2>
+                <Li>Postdoc, Cornell University,  10/2015 - 08/2018 </Li>
+                <Li>Intern, Microsoft Research Asia,  04/2014 - 09/2014</Li>
+                <Li>Visiting Scholar, Nanyang Technological University,  02/2014 - 03/2014</Li>
+                <Li>Visiting Scholar, Washington University in St. Louis,  01/2013 - 07/2013</Li><BR>
+ -->
+
+
+           <h2>Bio</h2>
+            <!-- <ul> -->
+            Gao Huang is an Assistant Professor affiliated with the Department of Automation at <a href=" https://www.tsinghua.edu.cn/en/index.htm">Tsinghua University</a>. He obtained his PhD degree in machine learning from Tsinghua in 2015, and spent three years at Cornell University as a postdoc. His research interests lie in machine learning and computer vision. In particular, he is actively working on efficient deep learning, <a href="https://arxiv.org/pdf/2102.04906.pdf">dynamic neural networks</a>, learning with limited data and reinforcement learning. His work on DenseNet won the Best Paper Award of CVPR (2017) and has collected more than 15,000 citations according to <a href="https://scholar.google.com/citations?user=-P9LwcgAAAAJ&amp;hl=en">Google Scholar</a>. (<a href="http://www.gaohuang.net/CV-Gao.pdf">C.V.</a>)
+            <!-- </ul> -->
+            <br>            <br>
+
+<svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 1024 1024" 
+width="20" height="20" p-id="1227" version="1.1" t="1574080109158"><path fill="#ffe255" 
+d="M 288.047 647.206 c -15.163 -31.887 -24.018 -69.291 -24.018 -108.764 c 0 -142.642 115.634 -258.276 258.276 -258.276 S 780.581 395.8 780.581 538.442 S 664.947 796.718 522.305 796.718 c -66.924 0 -127.904 -25.454 -173.785 -67.21 l 0.208 0.187 Z" 
+p-id="1228" />                         <path fill="#555555" d="M 521.861 819.769 l -1.099 0.002 c -72.694 0 -138.929 -27.657 -188.756 -73.022 l 0.225 0.202 c -4.382 -4.275 -7.1 -10.239 -7.1 -16.837 c 0 -12.986 10.528 -23.514 23.514 -23.514 a 23.417 23.417 0 0 1 15.1 5.489 l -0.036 -0.03 c 41.564 38.093 97.188 61.436 158.265 61.436 c 129.55 0 234.572 -105.021 234.572 -234.572 S 651.525 304.351 521.974 304.351 c -129.55 0 -234.572 105.021 -234.572 234.572 c 0 35.27 7.784 68.722 21.728 98.732 l -0.604 -1.447 c 2.311 3.576 3.684 7.946 3.684 12.637 c 0 12.986 -10.528 23.514 -23.514 23.514 c -10.734 0 -19.789 -7.193 -22.606 -17.022 l -0.041 -0.166 c -16.58 -34.797 -26.263 -75.622 -26.263 -118.708 c 0 -155.419 125.992 -281.41 281.41 -281.41 s 281.41 125.992 281.41 281.41 c 0 155.386 -125.938 281.357 -281.311 281.41 h -0.005 Z" 
+p-id="1229" />                         <path fill="#ffffff" d="M 685.89 561.493 c -12.986 0 -23.514 -10.528 -23.514 -23.514 v -0.13 c 0 -15.474 -2.498 -30.364 -7.112 -44.289 l 0.285 0.994 c -0.736 -2.18 -1.161 -4.691 -1.161 -7.301 c 0 -12.999 10.538 -23.537 23.537 -23.537 c 10.389 0 19.206 6.731 22.328 16.07 l 0.048 0.166 c 5.772 17.267 9.102 37.148 9.102 57.807 v 0.032 v -0.001 l 0.001 0.19 c 0 12.986 -10.528 23.514 -23.514 23.514 h -0.001 Z M 637.914 445.25 l -0.199 0.001 a 23.25 23.25 0 0 1 -16.489 -6.828 c -25.302 -25.532 -60.379 -41.339 -99.148 -41.339 h -0.23 h 0.012 c -12.986 0 -23.514 -10.528 -23.514 -23.514 s 10.528 -23.514 23.514 -23.514 l 0.615 -0.001 c 51.647 0 98.383 21.025 132.115 54.983 l 0.01 0.01 a 23.44 23.44 0 0 1 6.948 16.688 c 0 12.986 -10.528 23.514 -23.514 23.514 h -0.128 h 0.007 Z" 
+p-id="1230" />                         <path fill="#555555" d="M 653.653 904.344 H 390.257 c -10.88 -2.469 -18.879 -12.058 -18.879 -23.514 s 8 -21.045 18.718 -23.483 l 0.161 -0.031 h 263.396 c 10.88 2.469 18.879 12.058 18.879 23.514 s -8 21.045 -18.718 23.483 l -0.161 0.031 Z M 620.658 988.729 H 423.064 c -10.88 -2.469 -18.879 -12.058 -18.879 -23.514 s 8 -21.045 18.718 -23.483 l 0.161 -0.031 h 197.594 c 10.88 2.469 18.879 12.058 18.879 23.514 s -8 21.045 -18.718 23.483 l -0.161 0.031 Z M 151.704 551.064 H 42.477 c -12.986 0 -23.514 -10.528 -23.514 -23.514 s 10.528 -23.514 23.514 -23.514 h 109.227 c 12.986 0 23.514 10.528 23.514 23.514 s -10.528 23.514 -23.514 23.514 Z M 261.499 297.339 l -0.199 0.001 a 23.25 23.25 0 0 1 -16.489 -6.828 l -75.852 -75.852 a 23.404 23.404 0 0 1 -5.853 -15.524 c 0 -12.986 10.528 -23.514 23.514 -23.514 a 23.428 23.428 0 0 1 15.55 5.875 l -0.026 -0.022 l 75.852 75.852 a 23.44 23.44 0 0 1 6.948 16.688 c 0 12.986 -10.528 23.514 -23.514 23.514 h -0.128 h 0.007 Z M 518.827 196.267 c -12.986 0 -23.514 -10.528 -23.514 -23.514 V 64.095 c 0 -12.986 10.528 -23.514 23.514 -23.514 s 23.514 10.528 23.514 23.514 v 108.658 c 0 12.986 -10.528 23.514 -23.514 23.514 Z M 772.361 307.01 h -0.121 c -12.986 0 -23.514 -10.528 -23.514 -23.514 a 23.437 23.437 0 0 1 6.947 -16.686 l 75.853 -75.853 a 23.404 23.404 0 0 1 15.524 -5.853 c 12.986 0 23.514 10.528 23.514 23.514 a 23.428 23.428 0 0 1 -5.875 15.55 l 0.022 -0.026 l -75.852 75.852 c -4.198 4.29 -10.03 6.965 -16.488 7.016 h -0.01 Z M 981.523 564.907 H 872.296 c -12.986 0 -23.514 -10.528 -23.514 -23.514 s 10.528 -23.514 23.514 -23.514 h 108.279 c 12.986 0 23.514 10.528 23.514 23.514 s -10.528 23.514 -23.514 23.514 Z" 
+p-id="1231" />             </svg>                         
+<!-- <FONT 
+color="red">Opening:</FONT> -->
+If you are interested in a position (PhD, postdoc or 
+intern) in my lab, please contact me via gaohuang at tsinghua dot edu dot cn.
+For international students, please check <a href="https://www.tsinghua.edu.cn/publish/thu2018en/newthuen_cnt/02-admissions-3.html">HERE</a> for available scholarships. For postdocs, please check <a href="https://postdoctor.tsinghua.edu.cn/info/zxtz/1777">HERE</a>.
+
+
+<A href="#top" 
+      target="_blank"><IMG height="18" style="margin-bottom: -2px;" ></A> 
+<BR><BR>
+
+	  <!-- <H2>Related Links</H2>
+	  <ul>
+	      <li><a href="https://scholar.google.com/citations?user=-P9LwcgAAAAJ&amp;hl=en">Google Scholar</a> </li>
+	      <li><a href="http://www.gaohuang.net/index-cn.html">Chinese Home Page</a> </li>
+	      <li><a href="http://www.au.tsinghua.edu.cn/publish/au/1714/2019/20190308143746059566193/20190308143746059566193_.html">Tsinghua Official Website</a> </li>          
+	  </ul> -->
+		
+
+
+
+
+
+
+<a name="publications"></a>
+<DIV class="papers-container">
+<H5 class="paperlo">Recent Publications &amp; Preprints  (<a href="https://scholar.google.com/citations?user=-P9LwcgAAAAJ&amp;hl=en">Google Scholar</a>)<br>
+    
+    <SPAN id="paper-show"><!-- (<SPAN 
+id="show-selected">show selected</SPAN> /                         <SPAN id="show-by-date">show 
+all by date</SPAN> / <SPAN id="book-chapters">book chapters</SPAN>) --></SPAN>       
+          </H5><!-- <h5 class="paperhi paperhi-only">Representative Publications</h5> --> 
+              
+<DIV class="paper-selected">  
+
+     <!-- (<a href="https://scholar.google.com/citations?user=-P9LwcgAAAAJ&amp;hl=en">Full publication list on Google Scholar</a>) -->
+<BR>
+
+    <DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/2021_dynamic_survey.png">                  
+        <DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/2102.04906"><B>
+            Dynamic Neural Networks: A Survey.</B></A> 
+                <BR>Yizeng Han*,<b>Gao Huang</b>*, Shiji Song, Le Yang, Honghui Wang, Yulin Wang.               
+                      <BR><I>arXiv Preprint, 2021.<br></I>
+        <BR></DIV></DIV>
+
+
+    <DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/2021_cvpr_pointformer.jpg">                  
+        <DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/2012.11409"><B>
+            3D Object Detection with Pointformer.</B></A> 
+            <!-- [<A href="https://github.com/yangle15/RANet-pytorch"    target="_blank">code</A>]                     -->
+                <BR>Xuran Pan*, Zhuofan Xia*, Shiji Song, Li Erran Li, <b>Gao Huang</b>.               
+                      <BR><I>IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR </b>) 2021.<br></I>
+        <BR></DIV></DIV>
+
+    <DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/2021_cvpr_condensenet_v2.jpg">                  
+        <DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/2104.04382"><B>CondenseNet V2: Sparse Feature Reactivation for Deep Networks.</B></A> 
+            [<A href="https://github.com/jianghaojun/CondenseNetV2"    target="_blank">code</A>]                    
+                <BR>Le Yang*, Haojun Jiang*, Ruojin Cai, Yulin Wang, Shiji Song, <b>Gao Huang</b>, Qi Tian.               
+                        <BR><I>IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR </b>) 2021.<br></I>
+        <BR></DIV></DIV>
+
+    <DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/2021_cvpr_cbn.jpg">                  
+        <DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/2002.05712"><B>
+            Cross-iteration Batch Normalization.</B></A> 
+            [<A href="https://github.com/Howal/Cross-iterationBatchNorm"    target="_blank">code</A>]                    
+                <BR>Zhuliang Yao, Yue Cao, Shuxin Zheng, <b>Gao Huang</b>, Stephen Lin.               
+                        <BR><I>IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR </b>) 2021.<br></I>
+        <BR></DIV></DIV>
+
+
+
+
+
+    <DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/infopro_iclr_2021.png">                  
+        <DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/2101.10832"><B>Revisiting Locally Supervised Learning: an Alternative to End-to-end Training.</B></A> 
+            [<A href="https://github.com/blackfeather-wang/InfoPro-Pytorch"    target="_blank">code</A>]                    
+                <BR>Yulin Wang, Zanlin Ni, Shiji Song, Le Yang, <b>Gao Huang</b>.               
+                      <BR><I>International Conference on Learning Representations (<b>ICLR</b>) 2021.<br></I>
+        <BR></DIV></DIV>
+
+
+    <DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/auto_seg_loss_iclr_2021.png">                  
+        <DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/2010.07930"><B>Auto Seg-Loss: Searching Metric Surrogates for Semantic Segmentation.</B></A> 
+                <BR>Hao Li*, Chenxin Tao*, Xizhou Zhu, Xiaogang Wang, <b>Gao Huang</b>, Jifeng Dai.               
+                      <BR><I>International Conference on Learning Representations (<b>ICLR</b>) 2021.<br></I>
+        <BR></DIV></DIV>
+
+            <DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/isda_pami_2021.png">                  
+                <DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/2007.10538"><B>Regularizing Deep Networks with Semantic Data Augmentation.</B></A> 
+                    [<A href="https://github.com/blackfeather-wang/ISDA-for-Deep-Networks"    target="_blank">code</A>]                    
+                        <BR>Yulin Wang, <b>Gao Huang</b>, Shiji Song, Xuran Pan, Yitong Xia, Cheng Wu.               
+                              <BR><I>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>IEEE TPAMI</b>), 2021.<br></I>
+                <BR></DIV></DIV>
+        
+            <DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/ssinet_pami_2020.png">                  
+                <DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/2003.07069"><B>Self-Supervised Discovering of Interpretable Features for Reinforcement Learning.</B></A> 
+                    [<A href="https://github.com/shiwj16/SSINet"    target="_blank">code</A>]                    
+                        <BR>Wenjie Shi, <b>Gao Huang</b>, Shiji Song, Zhuoyuan Wang, Tingyu Lin, Cheng Wu.               
+                              <BR><I>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>IEEE TPAMI</b>), 2020.<br></I>
+                <BR></DIV></DIV>
+        
+
+
+    <DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/gfnet_neurips_2020.png">                  
+        <DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/2010.05300"><B>Glance and Focus: a Dynamic Approach to Reducing Spatial Redundancy in Image Classification.</B></A> 
+            [<A href="https://github.com/blackfeather-wang/GFNet-Pytorch"    target="_blank">code</A>]                    
+                <BR>Yulin Wang, Kangchen Lv, Rui Huang, Shiji Song, Le Yang, <b>Gao Huang</b>.               
+                      <BR><I>Neural Information Processing Systems (<b>NeurIPS</b>) 2020.<br></I>
+        <BR></DIV></DIV>
+
+
+
+    <DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/sample_interpolate_eccv.jpg">                  
+        <DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/2003.08866"><B>Spatially Adaptive Inference with Stochastic Feature Sampling and Interpolation.</B></A> 
+            [<A href="https://github.com/zdaxie/SpatiallyAdaptiveInference-Detection"    target="_blank">code</A>]                    
+                <BR>Zhenda Xie, Zheng Zhang, Xizhou Zhu, <b>Gao Huang </b>, Stephen Lin.               
+                      <BR><I>European Conference on Computer Vision (<b>ECCV </b> <b style="color:#FF0011" ;="">Oral</b>) 2020.<br></I>
+        <BR></DIV></DIV>
+
+    <DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/RANet.jpg">                  
+        <DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/2003.07326"><B>Resolution Adaptive Networks for Efficient Inference.</B></A> 
+            [<A href="https://github.com/yangle15/RANet-pytorch"    target="_blank">code</A>]                    
+                <BR>Le Yang*, Yizeng Han*, Xi Chen*, Shiji Song, Jifeng Dai, <b>Gao Huang</b>.               
+                      <BR><I>IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR </b>) 2020.<br></I>
+        <BR></DIV></DIV>
+        
+            <DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/partial_transfer_pami_2019.png">                  
+                <DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/2004.04914"><B>Deep Residual Correction Network for Partial Domain Adaptation.</B></A> 
+                        <BR>Shuang Li, Chi Harold Liu, Qiuxia Lin, Qi Wen, Limin Su, <b>Gao Huang</b>, Zhengming Ding.               
+                              <BR><I>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>IEEE TPAMI</b>), 2019.<br></I>
+                <BR></DIV></DIV>
+        
+        
+    
+    
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/1.jpg">                  
+<DIV class="media-body "><A class="paper-title" href="http://www.gaohuang.net/papers/DenseNet_Journal.pdf"><B>Convolutional Networks with Dense Connectivity.</B></A> 
+    [<A href="https://github.com/liuzhuang13/DenseNet" target="_blank">code</A>]                   
+        <BR><b>Gao Huang</b>, Zhuang Liu, Geoff Pleiss, Laurens Van Der Maaten, Kilian Q. Weingerger.               
+             <BR><I>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>IEEE TPAMI</b> ) 2019.<br><P style="color: red; display: inline;">(Journal version of DenseNet; Deep understanding of dense connectivity.)</P></I>
+<BR></DIV></DIV>
+
+
+<!-- 2 -->
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/2.jpg"> 
+                        
+<DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/1902.00744"><B>Asymmetric Valleys: Beyond Sharp and Flat Local Minima.</B></A>         
+    [<A href="https://github.com/962086838/code-for-Asymmetric-Valley" target="_blank">code</A>]
+    [<A href="http://www.gaohuang.net/papers/asymmetric-v3.pdf" target="_blank">slides</A>]
+    <BR>Haowei He, <b>Gao Huang</b>, Yang Yuan.
+ <BR><I>Neural Information Processing Systems (<b>NeurIPS</b> <b style="color:#FF0011" ;="">Spotlight</b>) 2019.</I><BR></DIV></DIV>
+
+
+
+<!-- 3 -->
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/3.jpg"> 
+                        
+<DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/1909.12220"><B>Implicit Semantic Data Augmentation for Deep Networks .</B></A>
+    [<A href="https://github.com/blackfeather-wang/ISDA-for-Deep-Networks"  target="_blank">code</A>]
+    <BR>
+Yulin Wang*, Xuran Pan*, Shiji Song, Hong Zhang, Cheng Wu, <b>Gao Huang</b>. 
+ <BR><I>Neural Information Processing Systems (<b>NeurIPS</b>) 2019.<BR>
+</I><BR></DIV></DIV>
+
+
+<!-- 4 -->
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/4.jpg"> 
+                        
+<DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/1909.03245"><B>Regularized Anderson Acceleration for Off-Policy Deep Reinforcement Learning.</B></A>  
+    [<A href="https://github.com/shiwj16/raa-drl" target="_blank">code</A>] [<A 
+href="http://www.gaohuang.net/papers/poster_RAA.pdf" target="_blank">poster</A>]                           
+<BR>Wenjie Shi, Shiji Song, Hui Wu, Ya-Chu Hsu, Cheng Wu, <b>Gao Huang</b>.                             
+    <BR><I>Neural Information Processing Systems (<b>NeurIPS</b>) 2019.                                 
+<!-- <P style="color: red; display: inline;">(Oral)</P> --> </I><BR></DIV></DIV>
+
+
+
+
+
+<!-- 5 -->	
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/5.jpg"> 
+				
+<DIV class="media-body "><A class="paper-title" href="https://arxiv.org/abs/1908.06294"><B>Improved Techniques for Training Adaptive Deep Networks.</B></A>
+    [<A href="https://github.com/kalviny/IMTA" target="_blank">code</A>]
+    <BR>                            
+Hao Li*, Hong Zhang*, Xiaojuan Qi, Ruigang Yang, <b>Gao Huang</b>.  <BR><I> International Conference on Computer Vision (<b>ICCV</b>) 2019. <BR>
+<!-- <P style="color: red; display: inline;">(Graduate Student Travel 
+Award)</P> --></I><BR></DIV></DIV>
+
+
+
+<!--7-->
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/7.jpg"> 
+                        
+<DIV class="media-body"><A class="paper-title" href="https://arxiv.org/abs/1810.05270"><B>Rethinking the Value of Network Pruning. </B></A>
+    [<A href="https://github.com/Eric-mingjie/rethinking-network-pruning" target="_blank">code</A>]
+    <BR>Zhuang Liu*,  Mingjie Sun*, Tinghui, Zhou, <b>Gao Huang</b>, Trevor Darrell.               
+                                          <BR><I>International Conference on Learning Representations (<b>ICLR</b>) 2019.                                 
+<!-- <P style="color: red; display: inline;">(Oral)</P> --></I><BR></DIV></DIV>
+
+
+
+
+
+<!--8-->
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/8.jpg"> 
+                        
+<DIV class="media-body"><A class="paper-title" href="https://arxiv.org/abs/1810.11408"><B>Anytime Stereo Image Depth Estimation on Mobile Devices.</B> </A>                             <BR> 
+Yan Wang, Zihang Lai, <b>Gao Huang</b>,  Brian Wang,  Laurens van der Maaten,  Mark Campbell,  Kilian Q. Weinberger.                      
+           <BR><I> International Conference on Robotics and Automation (<b>ICRA</b>) 2019.</I><BR></DIV></DIV>
+
+
+
+
+<!--9-->
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/9.jpg"> 
+                        
+<DIV class="media-body"><A class="paper-title" href="https://arxiv.org/abs/1804.05275"><B>Horizontal Pyramid Matching for Person Re-identification. </B></A>                             <BR> 
+Yang Fu, Yunchao Wei, Yuqian Zhou, Honghui Shi, <b>Gao Huang</b>, Xinchao Wang, Zhiqiang Yao, Thomas Huang.<BR>
+	<I>AAAI Conference on Artificial Intelligence (<b>AAAI</b>) 2019.                     
+        
+<!-- <P style="color: red; display: inline;">(Spotlight)</P> --></I><BR></DIV></DIV>
+
+
+
+
+
+
+
+<!--10-->
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/10.jpg"> 
+                        
+<DIV class="media-body"><A class="paper-title" href="https://arxiv.org/abs/1806.07755"><B>An Empirical Study on Evaluation Metrics of Generative Adversarial Networks.</B></A>
+    [<A href="https://github.com/xuqiantong/GAN-Metrics"     target="_blank">code</A>]
+    <BR>
+Qiantong Xu, <b>Gao Huang</b>, Yang Yuan, Chuan Guo, Yu Sun, Felix Wu, Kilian Weinberger.<BR><I>arXiv Preprint 2018.</I><BR></DIV></DIV>
+
+
+
+<!--11-->
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/11.jpg"> 
+                        
+<DIV class="media-body"><A class="paper-title" href="https://arxiv.org/abs/1711.09224"><B>CondenseNet: An Efficient DenseNet using Learned Group Convolutions.</B></A>
+    [<A href="https://github.com/ShichenLiu/CondenseNet"     target="_blank">code</A>]
+     [<A href="https://www.youtube.com/watch?v=NHajBzgnC1Q&amp;t=87m50s"     target="_blank">talk</A>]
+    <BR>
+<b>Gao Huang*</b>, Shichen Liu*, Laurens van der Maaten, Kilian Q. Weinberger.<BR>
+    <I>IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR Spotlight)</b> 2018.</I><BR><I>
+<!-- <P style="color: red; display: inline;">(MedIA-MICCAI'17 Best Paper 
+Award)</P> --></I><BR></DIV></DIV>
+
+
+
+
+<!--12-->
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/12.jpg"> 
+                        
+<DIV class="media-body"><A class="paper-title" href="https://arxiv.org/abs/1805.08805"><B>Resource Aware Person Re-identification across Multiple Resolutions.</B></A>
+    [<A href="https://github.com/mileyan/DARENet"    target="_blank">code</A>]
+    <BR>
+Yan Wang*, Lequn Wang*, Yurong You*, Xu Zou, Vincent Chen, Serena Li, <b>Gao Huang</b>, Bharath Hariharan, Kilian Weinberger.<BR>
+	<I>IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR)</b> 2018. 
+</I><BR><I>
+<!-- <P style="color: red; display: inline;">(ESI Highly Cited 
+Paper)</P> --></I><BR></DIV></DIV>
+
+
+
+
+
+<!--13-->
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/13.jpg"> 
+                        
+<DIV class="media-body"><A class="paper-title" href="https://arxiv.org/abs/1703.09844"><B>Multi-Scale Dense Convolutional Networks for Resource Efficient Image Classification.</B></A>
+    [<A href="https://github.com/gaohuang/MSDNet" target="_blank">code</A>]
+    <BR>
+<b>Gao Huang</b>, Danlu Chen, Tianhong Li, Felix Wu, Laurens van der Maaten, Kilian Q. Weinberger.  <BR>
+<I>International Conference on Learning Representations (<b>ICLR</b> <b style="color:#FF0011" ;="">Oral</b>) 2018. <BR>
+<!-- <P style="color: red; display: inline;">(ESI Highly Cited 
+Paper)</P> --></I><BR></DIV></DIV>
+
+
+<!--14-->
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/14.jpg"> 
+                        
+<DIV class="media-body"><A class="paper-title" href="https://arxiv.org/abs/1707.06990"><B>Memory-Efficient Implementation of DenseNets.</B></A>  
+    [<A href="https://github.com/liuzhuang13/DenseNet"     target="_blank">code1</A>]
+     [<A href="https://github.com/gpleiss/efficient_densenet_pytorch"     target="_blank">code2</A>]
+    <BR>
+Geoff Pleiss*, Danlu Chen*, <b>Gao Huang</b>, Tongcheng Li, Laurens van der Maaten, Kilian Q. Weinberger. <BR>
+<I>Technical Report 2017. </I><BR><I>
+<!-- <P style="color: red; display: inline;">(Best Paper Award)</P> --></I>               
+          </DIV></DIV>
+		  
+		
+		  
+<!--15-->		  
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/15.jpg"> 
+                        
+<DIV class="media-body"><A class="paper-title" href="https://arxiv.org/abs/1708.06519"><B>
+Learning Efficient Convolutional Networks through Network Slimming. 
+</B></A>                             
+[<A href="https://github.com/liuzhuang13/slimming" target="_blank">code</A>]
+<BR>Zhuang Liu, Jianguo Li, Zhiqiang Shen, <b>Gao Huang</b>, Shoumeng Yan, Changshui Zhang. <BR>
+<I>International Conference on Computer Vision (<b>ICCV)</b> 2017. </I><BR><I>
+<!-- <P style="color: red; display: inline;">(Young Scientist Award 
+Finalist)</P> --></I><BR></DIV></DIV>
+
+
+
+<!--16-->	
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/16.jpg"> 
+                        
+<DIV class="media-body"><A class="paper-title" href="https://arxiv.org/abs/1608.06993"><B>Densely Connected Convolutional Networks.</b></A>                            
+    [<A href="https://github.com/liuzhuang13/DenseNet" 
+    target="blank">code</A>] [<A href="https://www.youtube.com/watch?v=-W6y8xnd--U&amp;t=7s" 
+    target="blank">talk</A>] [<A href="http://www.gaohuang.net/papers/DenseNet-CVPR-Slides.pdf" 
+    target="blank">slides</A>]    
+    <BR>
+<b>Gao Huang*</b>, Zhuang Liu*, Laurens van der Maaten, Kilian Weinberger.                            
+<BR>
+<I>IEEE Conference on Computer Vision and Pattern Recognition
+  (<b>CVPR <b style="color:#FF0011" ;="">Oral</b></b>) 2017. <BR>
+</I><BR></DIV></DIV>
+
+
+
+<!--17-->	
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/17.jpg"> 
+                        
+<DIV class="media-body"><A class="paper-title" href="https://arxiv.org/abs/1704.00109"><B>
+Snapshot Ensembles: Train 1, Get M for Free.</B></A> 
+[<A href="https://github.com/gaohuang/SnapshotEnsemble" 
+target="blank">code</A>] 
+                           <BR> <b>Gao Huang*</b>, Yixuan Li*, Geoff Pleiss, Zhuang Liu, John E. Hopcroft, Kilian Weinberger. 
+						   <BR><I>International Conference on Learning Representations (<b>ICLR)</b> 2017.                                
+<!-- <P style="color: red; display: inline;">(Oral)</P> --></I><BR></DIV></DIV>
+
+
+
+
+<!--18-->
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/18.jpg"> 
+                        
+<DIV class="media-body"><A class="paper-title" href="https://papers.nips.cc/paper/6139-supervised-word-movers-distance.pdf"><B> 
+Supervised Word Mover's Distance. </B></A>
+[<A href="https://github.com/gaohuang/S-WMD" 
+target="blank">code</A>]  [<A href="https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Supervised-Word-Movers-Distance" 
+target="blank">talk</A>]
+<BR> 
+ <b>Gao Huang*</b>, Chuan Guo*, Matt Kusner, Yu Sun, Fei Sha, Kilian Weinberger.  <BR>
+	 <I>Neural Information Processing Systems (<b>NIPS</b> <b style="color:#FF0011" ;="">Oral</b>) 2016. <BR>
+<!-- <P style="color: red; display: inline;">(MICCAI Young Scientist Impact Award 
+2019)</P> --></I>                         </DIV></DIV>
+
+
+
+
+<!--19-->
+<DIV class="publication media paperhi"><IMG class="papericon" src="Gao%20Huang%20Homepage_files/19.jpg"> 
+                        
+<DIV class="media-body"><A class="paper-title" href="https://arxiv.org/abs/1603.09382"><BR><B>Deep Networks with Stochastic Depth. </B></A>              
+    [<A href="https://github.com/gaohuang/Stochastic_Depth" 
+target="blank">code</A>]  [<A href="http://www.eccv2016.org/files/posters/S-3A-08.pdf" 
+target="blank">poster</A>] [<A href="https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Deep-Learning-Symposium-Session-2" 
+target="blank">talk</A>]          
+    <BR><b>Gao Huang*</b>, Yu Sun*, Zhuang Liu, Daniel Sedra, Kilian Weinberger. <BR><I>European Conference on Computer Vision (<b>ECCV Spotlight</b>) 2016.<br>
+<p style="color: red; display: inline;" href="https://sites.google.com/site/nips2016deeplearnings/accepted-papers"> (This paper was recommended as an Oral at NIPS 2016 Deep Learning Symposium) </p>
+<!-- <P style="color: red; display: inline;">(Oral)</P> -->
+
+</I><BR><BR></DIV></DIV></DIV>
+
+<i>* Equal Contribution. </i>
+<br><br>
+
+
+
+
+<!-- <DIV class="text_container visible"> -->
+<H2 id="awards">Awards</H2>
+<DIV>
+<UL>
+<li>Qingcheng Award, Damo Academy of Alibaba, 2020</li>
+<li>Outstanding Young Researcher, Chinese Association for Artificial Intelligence, 2019</li>
+<li>Super AI Leader - Pioneer Award, World AI Conference (WAIC), 2018</li>
+<li>NeurIPS Workshop Best Paper Award, 2018</li>
+<li>CVPR Best Paper Award, 2017</li>
+<li>Doctoral Dissertation Award, Chinese Association of Automation, 2015</li>
+<!-- <li>First Prize of Doctoral Dissertation Award, Tsinghua University, 2015</li> -->
+<!-- <li>Outstanding Graduate, Tsinghua University, 2015</li> -->
+<!-- <li>Top 100 Most Influential Scientific Papers from China, Ministry of Science and Technology of China, 2015</li> -->
+<!-- <li>Stars of Tomorrow Internship Program, Microsoft Research, 2014</li> -->
+<!-- <li>National Scholarship for PhD Students, Ministry of Education of China, 2012</li>
+<li>Outstanding Graduate of Beijing, 2009</li>
+<li>National Scholarship, Ministry of Education of China, 2008</li> -->
+  
+</UL></DIV>
+<!-- </DIV> -->
+
+<!-- <DIV class="text_container visible"> -->
+<H2 id="students">Students</H2>
+<DIV>
+<UL>
+
+<li> <p><b>PhD Students</b>: <BR> 
+    <a >Haojun Jiang (2020-)</a> <BR>
+    <a>Chaoqun Du (2020-)</a> <BR>
+    <a>Rui Lu (Incoming)</a><BR>
+    <a>Qichen Zhao (Incoming)</a><BR>
+</p></li>
+
+  <li> <p><b>Co-supervised PhD students</b>: <BR> 
+    <a >Hui Wu</a> (2014-2020; Tencent)  <BR>
+    <a >Yiming Chen</a> (2015-2020; MeiTuan)  <BR>
+     <a>Le Yang</a> (2015-2021; Xi'an Jiaotong University)  <BR>
+     <a>Wenjie Shi</a> (2016-)  <BR>
+     <a>Hangkai Hu</a> (2016-)  <BR>
+     <a>Peng Jiang</a> (2017-)  <BR>
+     <a>Yizeng Han</a> (2018-)  <BR>
+     <a>Xuran Pan</a> (2018-)  <BR>
+     <a>Chaofei Wang</a> (2019-)  <BR>
+     <a>Yulin Wang</a> (2019-)  <BR>
+     Qisen Yang  (2019-)  </p></li>
+
+  <li> <p><b>Undergraduate students at Cornell</b>: <BR> 
+     Yu Sun (2015-2016; now PhD student at Berkeley) <BR>
+    <a href="https://liuzhuang13.github.io/">Zhuang Liu</a> (2016; now PhD student at Berkeley) <BR>
+    <a href="https://taineleau.me/">Danlu Chen</a> (2017; now PhD student at UCSD) <BR>
+    <a href="http://www.tianhongli.me/">Tianhong Li</a> (2017; now PhD student at MIT) <BR>
+    <a href="https://sites.google.com/site/ruihanwu14/home">Ruihan Wu</a> (2017; now PhD student at Cornell) <BR>
+    <a href="https://shichenliu.github.io/">Shichen Liu</a> (2017; now PhD student at USC) <BR>
+    <a href="https://scholar.google.com/citations?user=_BiloKgAAAAJ&hl=en">Xu Zou</a> (2017; now PhD student at THU) <BR> 
+     Yin Liu (2017; now PhD student at WISC) <BR> 
+     Yanyi Liu (2018; now PhD student at Cornell) <BR> 
+    Ruojin Cai (2018; now PhD student at Cornell) <BR> 
+    <a href="http://www.cs.cornell.edu/~tyu/index.html">Tao Yu</a> (2018; now PhD student at Cornell) <BR> 
+    <a href="https://zlai0.github.io/">Zihang Lai</a> (2018; now undergraduate at Oxford)
+</p></li>
+
+<li> <p><b>Undergraduate students at Tsinghua</b>: <BR> 
+    <a >Hao Li</a> (2018-)  <BR>
+        <a>Jiayi Guo</a> (2018-)  <BR>
+        <a>Zhuoyuan Wang</a> (2019-)  <BR>
+        <a>Kaiqian Han</a> (2019-)  <BR>
+        <a>Kuan Wang</a> (2019-)  <BR>
+        <a>Jiayu Xiao</a> (2019-)  <BR>
+
+  </UL></DIV>
+<!-- </DIV> -->
+  
+<!-- <DIV class="text_container visible">
+<H2 id="talks">Talks</H2>
+<DIV>
+<UL>
+  <li>International Conference on Image Processing (ICIP), Taipei, China, 09/2019</li>
+<li>International Conference on Multimedia and Expo (ICME), Shanghai, China, 07/2019</li>
+<li>Baidu Research, Beijng, China, 06/2019</li>
+<li>Vision And Learning SEminar (VALSE), Hefei, China, 04/2019</li>
+<li>University of British Columbia, Vancouver, Canada, 05/2018</li>
+<li>Microsoft Research, Seattle, USA, 04/2018</li>
+<li>Washington University in St. Louis, USA, 04/2018</li>
+<li>University of Chicago, Chicago, USA, 03/2018</li>
+<li>Temple University, Philadelphia, USA, 02/2018</li>
+<li>Megvii Technology Limited, Beijing, China, 12/2017</li>
+<li>Shanghai Jiao Tong University, Shanghai, China, 12/2017</li>
+<li>AI Seminar, Cornell University, Ithaca, USA, 09/2017</li>
+<li>CVPR, Honolulu, USA, 07/2017</li>
+<li>Apple Research, Seattle, USA, 07/2017</li>
+<li>Microsoft Research Asia, Beijing, China, 12/2016</li>
+<li>Tsinghua University, Beijing, China, 12/2016</li>
+<li>AAAI Conference on Artificial Intelligence, Austin, USA, 01/2015</li>
+<li>European Conference on Machine Learning, Nancy, France, 09/2014</li>
+<li>Nanyang Technological University, Singapore, 02/2014</li>
+ 
+</UL></DIV></DIV> -->
+  
+  
+<!-- <DIV class="text_container visible"> -->
+<H2 id="awards">Professional Activities</H2>
+<DIV>
+<UL>
+
+    <li>Associate Editor, IEEE Transactions on Big Data (2021-).</li>
+
+    <li>Senior Program Committee (SPC) member of IJCAI (2021).</li>
+
+    <li>Area Chair of CVPR (2021).</li>
+
+    <li>Senior Program Committee (SPC) member of AAAI (2018, 2020).</li>
+  
+  <li>Reviewer for JMLR, Machine Learning, TPAMI, IJCV, TIP, TKDE, TNNLS, ...</li>        
+  
+  <li>Reviewer for NeurIPS, ICML, CVPR, ICCV, ECCV, AAAI, AISTATS, ...</li>
+  
+</UL></DIV>
+<!-- </DIV> -->
+  
+  <!-- <DIV class="text_container visible"> -->
+  <H2 id="contact">Contact</H2>
+  <DIV>
+  <UL>
+    <LI> gaohuang at tsinghua dot edu dot cn</LI>
+    <LI>617 Centre Main Building, Tsinghua University, Beijing 100084, China.</LI>
+    </UL></DIV>
+<!-- </DIV> -->
+  
+  
+  
+  
+  
+<!-- <DIV class="text_container visible">
+<H2 id="talk"> Selected Talks</H2>
+<DIV>
+<UL>
+  <LI><B>Domain Generalization via Model-Agnostic Learning of Semantic Features 
+  </B> </LI>                        at <A href="https://www.imperial.ac.uk/data-science/research/multidisciplinary-labs/machine-learning-lab/imperial--neurips-2019/" 
+  target="_blank">Imperial @ NeurIPS 2019</A>, Nov 2019.                         
+  <BR>
+  <LI><B>Surgical Visual Perception Towards AI-Powered Context-Aware Operating 
+  Theaters </B> </LI>                        at MICCAI'19 Workshop of <A href="https://or20.univ-rennes1.fr/" 
+  target="_blank"> OR 2.0 Context-Aware  Operating Theaters</A>, Oct 2019. <BR>  
+                        at MediCIS, Universite de Rennes 1, France, Nov 2019.    
+                       <BR>
+  <LI><B>Multimodal Learning from Unpaired Medical Images for Adaptation and 
+  Integration </B> </LI>                        at UCL Medical Image Computing 
+  Summer School (MedICSS), UK, Jul 2019. <BR>                        at UCL/ICL 
+  Bio-Imaging Symposium, UK, May 2019.                          <BR>
+  <LI><B>Towards AI-Powered Healthcare: Automated Medical Image Computing via 
+  Deep Learning</B> </LI>                        at Department of Computer 
+  Science, University of Birmingham, Nov 2019. <BR>                        at 
+  Department of Computer Science, Sheffield University, May 2019. <BR>           
+               at Department of Computer Science &amp; Engineering, CUHK, Mar 
+  2019. <BR>                        at Department of Computer Science &amp; 
+  Engineering, HKUST, Feb 2019. <BR>                        at Hong Kong 
+  Instuition of Science Annual Meeting, HK, Dec 2018.                         
+  <BR>
+  <LI><B>Towards AI-Powered Healthcare: Automated Medical Image Computing via 
+  Deep Learning </B> </LI>                        at Hong Kong Instuition of 
+  Science Annual Meeting, HK, Dec 2018.                         <BR>
+  <LI><B>Analyzing High Dimensional Medical Images with Deep Learning</B> </LI>  
+                        at Hamlyn Centre for Robotic Surgery, Imperial College 
+  London, UK, Feb 2019. <BR>                        at Smart Robotics and 
+  Artificial Intelligence Workshop organized by Signate Life Sciences, HK, Dec   
+                       2018.                         <BR>
+  <LI><B>Deep Learning for AI-Powered Medical Image Analysis in Radiology</B> 
+  </LI>                        at Hong Kong College of Radiologists (HKCR) 
+  Annual Scientific Meeting, HK, Nov 2018. <BR>                        at 
+  Engineering Medical Innovation (EMedI) Summit, HK, Aug 2018.                   
+        <BR>
+  <LI><B>Deep Learning for Medical Image Computing</B> </LI>                     
+     at Department of Computing, HKPolyU, HK, Aug 2018.                         
+  <BR>
+  <LI><B>Medical Image Computing via Deep Learning - Detection and Segmentation 
+  </B> </LI>                        at BioMedIA lab in Imperial College London, 
+  UK, July 2018. <BR>                        at German Center for 
+  Neurodegenerative Diseases (DZNE), Germany, Jul 2018.                         
+  <BR>
+  <LI><B>Intelligent Medical Image Detection and Segmentaiton via 3D Deep 
+  Learning</B></LI>                        at <A href="https://www.re-work.co/events/ai-in-healthcare-summit-hong-kong-2018">AI 
+  in Healthcare Summit </A>organized by ReWork, HK, June 2018.                   
+         <BR>
+  <LI><B>Deep Learning for Medical Image Analysis: Algorithms and 
+  Applications</B> </LI>                        at Department of Clinical 
+  Oncology at Queen Mary Hospital HKU, HK, Apr 2018.                         
+<BR>
+  <LI><B>3D Convolutional Networks for Computer-aided Lesion Detection in 
+  Medical Images</B> </LI>                        at A*Star Institute of High 
+  Performance Computing, Singapore, May 2017.                         <BR>
+  <LI><B>Automated Brain Lesion Detection in MRI Scans with Hierarchical 
+  Features </B></LI>                        at Siemens Corporate Research, 
+  Princeton, US, Jun 2016.                     </UL></DIV></DIV> -->
+  
+  
+  
+  
+  
+<!-- <DIV class="text_container hidden">
+<H2>Professional Services</H2>
+<DIV><B>Conference Services: </B>                     
+<UL>
+  <LI>Area Chair of MIDL'19-20 </LI>
+  <LI>PC of "Medical Imaging meets NeurIPS" 18-19</LI>
+  <LI>Reviewer of AISTATS'20, ICRA'20, AAAI'19-20, MICCAI'17-20, IJCAI'18-20, 
+  IROS'19</LI> 
+                      </UL><B>Journal Reviews: </B>                     
+<UL>
+  <LI>IEEE Transactions on Pattern Analysis and Machine Learning (TPAMI)</LI>
+  <LI>Medical Image Analysis (MedIA)</LI>
+  <LI>IEEE Transactions on Medical Imaging (TMI)</LI>
+  <LI>International Journal of Computer Vision (IJCV)</LI>
+  <LI>IEEE Transactions on Biomedical Engineering (TBME)</LI>
+  <LI>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</LI>
+  <LI>IEEE Transactions on Automation Science and Engineering (TASE)</LI>
+  <LI>IEEE Transactions on Cybernetics (CYB)</LI>
+  <LI>IEEE Robotics and Automation Letters (RA-L)</LI>
+  <LI>IEEE Journal of Biomedical and Health Informatics (JBHI)</LI>
+  <LI>IEEE Transactions on Emerging Topics in Computing (TETCSI)</LI>
+  <LI>International Journal of Computer Assisted Radiology and Surgery 
+  (IJCARS)</LI>
+  <LI>The Lancet Digital Health</LI>
+  <LI>NeuroImage</LI>
+  <LI>Neurocomputing</LI>
+  <LI>Pattern Recognition</LI>
+  <LI>Medical Physics</LI>
+  <LI>Scientific Reports</LI>
+  <LI>BMC Bioinformatics</LI>
+  <LI>Computerized Medical Imaging and Graphics</LI>
+  <LI>Neuroradiology</LI>
+  <LI>Journal of Magnetic Resonance Imaging</LI>
+  <LI>International Journal of Imaging Systems and Technology</LI>
+  <LI>SPIE Journal of Medical Imaging</LI>
+  <LI>SPIE Journal of Electronic Imaging</LI>
+  <LI>Informatics in Medicine Unlocked</LI>                        etc.          
+             </UL></DIV></DIV> -->
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+<!-- <DIV class="text_container hidden">
+<H2>Press Coverage</H2>
+<DIV>
+<UL>
+  <LI><A href="https://twitter.com/EU_RESEARCH/status/1219308002055983105">      
+                            EU Research Social Media, machine intelligence to 
+  detect subtle signs of early #disease, 2019.</A></LI>
+  <LI><A href="http://www.chinadaily.com.cn/a/201904/03/WS5ca4901ca3104842260b4431_1.html"> 
+                                     China Daily, AI used to pinpoint head and 
+  neck cancer treatment, 2019.</A></LI>
+  <LI><A href="http://www.cse.cuhk.edu.hk/en/achievement/professor-and-research-staff/1214-dr-qi-dou-won-the-hkis-towngas-young-scientist-award-2018-and-cuhk-postgraduate-research-output-award-2017">CUHK 
+                                     CSE News of Achievement, 2018.</A></LI>
+  <LI><A href="https://www.instagram.com/p/BrPRtQ_h3Fy/?utm_source=ig_share_sheet&amp;igshid=u0vmh7epyr8m">CUHK 
+                                     Engineering Social Media Platform, keywords 
+  #healthcaretechnology,                                    #womanengineering, 
+  2018.</A></LI>
+  <LI><A href="http://www.iso.cuhk.edu.hk/english/publications/CUHKUPDates/article.aspx?articleid=2129">CUHK 
+                                     Updates, An Eagle Eye for Smart Diagnoses, 
+  2018.</A></LI>
+  <LI><A href="https://www.erg.cuhk.edu.hk/erg/node/1275">CUHK Updates, An Eagle 
+  Eye for Smart                                    Diagnoses, 2018.</A></LI>
+  <LI><A href="http://www.cse.cuhk.edu.hk/en/achievement/professor-and-research-staff/26-prof-heng-pheng-ann-and-his-team-develop-artificial-intelligent-systems-improving-efficiency-in-diagnosing-lung-cancer-and-breast-cancer-through-automated-medical-image-analysis-9-2017">Regional 
+                                     press media, AI for Lung Cancer and Brease 
+  Cancer Analysis, 2017.</A></LI></UL></DIV></DIV> -->
+  
+  
+  
+<!--   
+<DIV class="text_container hidden" id="more">  <DIV>
+<UL>
+
+  <LI>Last update on 9 Feb 2020.</LI><BR> 
+<SCRIPT src="Gao%20Huang%20Homepage_files/4.js" type="text/javascript" async="async"></SCRIPT>
+                           </UL></DIV></DIV></DIV></DIV>
+<DIV align="center">
+<script language=JavaScript>
+
+var caution = false
+function setCookie(name, value, expires, path, domain, secure){
+var curCookie = name + "=" + escape(value) +
+((expires) ? "; expires=" + expires.toGMTString() : "") +
+((path) ? "; path=" + path : "") +
+((domain) ? "; domain=" + domain : "") +
+((secure) ? "; secure" : "")
+if (!caution || (name + "=" + escape(value)).length<= 4000)
+document.cookie = curCookie
+else
+if (confirm("Cookie exceeds 4KB and will be cut!"))
+document.cookie = curCookie
+}
+function getCookie(name) {
+var prefix = name + "="
+var cookieStartIndex = document.cookie.indexOf(prefix)
+if (cookieStartIndex == -1)
+return null
+var cookieEndIndex = document.cookie.indexOf(";", cookieStartIndex+ prefix.length)
+if (cookieEndIndex == -1)
+cookieEndIndex = document.cookie.length
+return unescape(document.cookie.substring(cookieStartIndex +prefix.length, cookieEndIndex))
+}
+function deleteCookie(name, path, domain) {
+if (getCookie(name)) {
+document.cookie = name + "=" +
+((path) ? "; path=" + path : "") +
+((domain) ? "; domain=" + domain : "") +
+"; expires=Thu, 01-Jan-70 00:00:01 GMT"
+}
+}
+function fixDate(date) {
+var base = new Date(0)
+var skew = base.getTime()
+if (skew > 0)
+date.setTime(date.getTime() - skew)
+}
+var now = new Date()
+fixDate(now)
+now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000)
+var visits = getCookie("counter")
+if (!visits)
+visits = 1323
+else
+visits = parseInt(visits) + 1
+setCookie("counter", visits, now)
+document.write("<h2>You are the <font color=red>" + visits + "</font>th visitor. Welcome!</h2>")
+
+</script></DIV><br><br> -->
+
+
+</BODY></HTML>
